@@ -33,7 +33,8 @@ int main()
 		}
 		else if (input == "=") {
 			cout << stack.getTop() << endl;
-			break;
+			cout << "Enter a postFix expression or stop to exit. " << endl;
+			cout << "Afer typing in =, add a space and then press enter: ";
 		}
 		else {
 			takeOut = double(stoi(input)); //changes string input to int, casted to double
